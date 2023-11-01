@@ -1,0 +1,77 @@
+.portfolio-pieces {
+    display: grid;   
+    justify-content: center;
+    grid-template-columns: 500px 500px 500px;
+    column-gap: 50px;
+    row-gap: 100px;
+
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.piece {
+    width: 500px;
+    height: 600px;
+}
+.image-container {
+    width: 500px;
+    height: 500px;
+                
+    background: url(../images/view.jpg); 
+    position: relative;
+    border-radius: 20px;
+    border: solid;
+    border-color: black;
+}
+.image-container:hover {
+    filter: grayscale(100%);
+}
+.one {
+    width: 100%;
+    height: 100%;
+    background-color: black;    
+    position: absolute;
+    
+    border-radius: 17px;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.one:hover {
+    opacity: 0.7;
+}
+
+.piece-cover {
+    width: 500px;
+    height: 500px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.piece-cover:hover {
+    filter: grayscale(100%);
+}
+
+
+
+.piece-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;   
+}
+.piece-headline {    
+    margin-top: 15px;
+    font-size: 30px;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.piece-explanation {
+    margin-top: 10px;
+    word-wrap: break-word;
+    font-size: 17px;
+}

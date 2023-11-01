@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100px;
+
+    background-color: rgb(37, 37, 37);
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+.site-name {
+    font-size: 35px;
+    cursor: pointer;
+}
+.site-navigators {
+    display: flex;
+    column-gap: 30px;
+    color: rgb(209, 209, 209);
+}
+.navigator {
+    cursor: pointer;
+}
