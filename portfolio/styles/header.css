@@ -4,16 +4,19 @@
     right: 0;
     top: 0;
     height: 100px;
+    background-color: rgb(37, 37, 37, 1);
 
-    background-color: rgb(37, 37, 37);
     font-weight: bold;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
     z-index: 100;
+    transition: 0.5s;
 }
-.site-name {
+.site-name a{
+    color: white;
+    text-decoration: none;
     font-size: 35px;
     cursor: pointer;
 }
