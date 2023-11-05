@@ -40,7 +40,7 @@
     transition: 0.5s;
 }
 .one:hover {
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .piece-cover {
