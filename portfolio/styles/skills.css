@@ -1,0 +1,52 @@
+.skills {
+    height: 400px;
+    background: rgb(15, 15, 15);
+}
+
+.header-skills {
+    position: relative;
+    top: 10px;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.program-container,
+.language-container {
+    height: 45%;
+    display: flex;
+    column-gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+}
+.explanation {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    max-width: 100%;
+    color: white;
+}
+.explanation-language {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    max-width: 100%;
+    color: white;
+}
+.program-image {
+    width: 70px;
+    filter: grayscale(100%) invert(100%);
+}
+.language-image {
+    width: 50px;
+    filter: grayscale(100%) invert(100%);
+}
