@@ -4,12 +4,31 @@
         <title>Fikret Gezer</title>
         <link rel="icon" href="images/social-images/me.jpg">
 
+        <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/info.css">
         <link rel="stylesheet" href="styles/skills.css">
         <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/content.css">
+
+        <script src="https://kit.fontawesome.com/2215e05467.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <label class="logo">Fikret Gezer</label>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#games">Game Projects</a></li>
+                <li><a href="#uipath">UiPath Projects</a></li>
+                <li><a href="#web">Web Projects</a></li>
+            </ul>
+        </nav>
+
         <div class="info-container">
             <div class="picture-container">
                 <img class="picture" src="images/social-images/me.jpg" alt="">
@@ -28,7 +47,7 @@
                 <a href="https://www.youtube.com/@mfikretgezer" target="_blank"><img class="social-image" src="images/social-images/youtube.png"></a>
             </div>
         </div>
-        <div class="skills">
+        <div class="skills" id="skills">
             <div class="header-skills">
                 Skills & Experience
             </div>
@@ -86,7 +105,7 @@
             </div>
         </div>
         <div class="projects-container">
-            <div class="game-projects">
+            <div class="game-projects" id="games">
                 <div class="header">
                     Game Projects
                     <div class="underline">
@@ -113,7 +132,7 @@
             </div>
         </div>
         <div class="projects-container">
-            <div class="uipath-projects">
+            <div class="uipath-projects" id="uipath">
                 <div class="header">
                     UiPath Projects
                     <div class="underline">
@@ -140,7 +159,7 @@
             </div>
         </div>
         <div class="projects-container">
-            <div class="web-projects">
+            <div class="web-projects" id="web">
                 <div class="header">
                     Web Projects
                     <div class="underline">

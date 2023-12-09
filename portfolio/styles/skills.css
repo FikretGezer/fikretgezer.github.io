@@ -45,8 +45,9 @@
 .program-image {
     width: 70px;
     filter: grayscale(100%) invert(100%);
+    z-index: -10px;
 }
 .language-image {
-    width: 50px;
+    width: 60px;
     filter: grayscale(100%) invert(100%);
 }
