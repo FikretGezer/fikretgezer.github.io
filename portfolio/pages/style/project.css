@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 body {
     background: linear-gradient(rgb(0, 0, 0), rgb(49, 49, 49));
@@ -36,7 +36,10 @@ body {
 .actual-platforms a:visited {
     color: gray;
 }
-
+.platform {
+    color: gray;
+    text-decoration: none;
+}
 .project-underline {
     position: absolute;
     bottom: 0px;
