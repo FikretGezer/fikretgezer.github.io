@@ -5,6 +5,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 nav .name {
     color: black;
@@ -24,6 +25,7 @@ nav .sections {
 
     font-size: 25px;
     font-weight: bold;
+    z-index: 1;
 }
 .section {
     cursor: pointer;

@@ -2,17 +2,40 @@
 <html>
     <head>
         <link rel="stylesheet" href="../styles/headerBase.css">
+        <link rel="stylesheet" href="./style/game-projects.css">
     </head>
     <body>
-        <a href="../index.html">Go Back</a>
-        <br><br>
-        <div class="games-container">
-            <a onclick="ClickIt(0)" href="../pages/game-pages/project-page.html">No Name Survivor</a>
-            <br><br>
-            <a onclick="ClickIt(1)" href="../pages/game-pages/project-page.html">Tetris</a>
+        <!-- <a href="../index.html">Go Back</a> -->
+        <nav>
+            <div class="sections">
+                <a href="../../index.html"><div class="section">Home</div></a>
+                <a href="#"></a><div class="section menu">
+                    Projects
+                    <div class="projects-tab">
+                        <a href="../../pages/game-projects.html">Games</a>
+                        <a href="../../pages/uipath-projects.html">Robot</a>
+                        <a href="../../pages/web-projects.html">Web</a>
+                    </div>
+                </div></a>
+                <a href="#"></a><div class="section">Contact</div></a>
+            </div>
+        </nav>
+        <div class="games-background">
+            <div class="games-container">
+                <div class="project">
+                    <a href="#">
+                        <div class="project-image-container">
+                            <img src="../images/game-projects/view.jpg">
+                            <div class="more-info">
+                                <p class="name">Go To The Details</p>
+                            </div>
+                        </div>
+                    </a>
+                    <p>No Name Survivor</p>
+                </div>
+            </div>
         </div>
 
-
-        <script src="/pages/scripts/games-container.js"></script>
+        <script type="module" src="/pages/scripts/games-container.js"></script>
     </body>
 </html>
