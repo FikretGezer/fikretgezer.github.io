@@ -1,7 +1,10 @@
 import { games } from "../data/games.js";
+import { robots } from "../data/robots.js";
+import { webProjects } from "../data/web.js";
+
 import { changeImages } from "./image-changer.js";
 
-const currentGameId = localStorage.getItem('gameIndex');
+const projectId = localStorage.getItem('projectIndex');
 const projectContainer = document.querySelector('.project-container');
 
 const changeContentHTML = (id, projectName, actualPlatforms,
@@ -85,16 +88,30 @@ const changeContentHTML = (id, projectName, actualPlatforms,
 
                     };
 
-const currentGame = !currentGameId ? games[0] : games[currentGameId];
-changeContentHTML(currentGame.id, currentGame.projectName,
-    currentGame.actualPlatforms, currentGame.projectImages,
-    currentGame.actualExplanation, currentGame.projectVideo);
+const arrayName = localStorage.getItem('arrayName');
+let actualArray;
+switch(arrayName)
+{
+    case "games":
+        actualArray = games;
+        break;
+    case "robots":
+        actualArray = robots;
+        break;
+    default:
+        actualArray = webProjects;
+        break;
+}
+const currentProject = !projectId ? actualArray[0] : actualArray[projectId];
+changeContentHTML(currentProject.id, currentProject.projectName,
+    currentProject.actualPlatforms, currentProject.projectImages,
+    currentProject.actualExplanation, currentProject.projectVideo);
 changeImages();
 
 const platformsHTML = document.querySelector('.actual-platforms');
 let endHTML = "";
-currentGame.actualPlatforms.forEach(platform => {
-    if(platform !== currentGame.actualPlatforms[currentGame.actualPlatforms.length - 1])
+currentProject.actualPlatforms.forEach(platform => {
+    if(platform !== currentProject.actualPlatforms[currentProject.actualPlatforms.length - 1])
         endHTML += `<a class="platform" href="#">${platform}</a>, `;
     else
         endHTML += `<a class="platform" href="#">${platform}</a>`;

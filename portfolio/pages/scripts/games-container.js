@@ -4,15 +4,14 @@ import { webProjects } from '../data/web.js';
 
 
 function ClickIt(value){
-    localStorage.setItem('gameIndex', value);
-    console.log(localStorage.getItem('gameIndex'));
+    localStorage.setItem('projectIndex', value);
+    console.log(localStorage.getItem('projectIndex'));
 }
 
 const arrayName = localStorage.getItem('arrayName');
-const arrayToShow = arrayName !== null ? arrayName : "webProjects";
 
 let actualArray;
-switch(arrayToShow)
+switch(arrayName)
 {
     case "games":
         actualArray = games;
@@ -25,7 +24,7 @@ switch(arrayToShow)
         break;
 }
 
-const gamesContainer = document.querySelector('.games-container');
+
 let endHTML = "";
 
 actualArray.forEach((game, index) => {
@@ -44,7 +43,9 @@ actualArray.forEach((game, index) => {
     `;
 });
 
+const gamesContainer = document.querySelector('.projects-container');
 gamesContainer.innerHTML = endHTML;
+
 const links = document.querySelectorAll('.project a');
 links.forEach((link, index) => {
     link.addEventListener('click', () => {

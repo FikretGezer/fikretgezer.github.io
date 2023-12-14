@@ -7,7 +7,7 @@
 body {
     background: black;
 }
-.games-background {
+.projects-background {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@ body {
     text-decoration: underline;
     text-underline-offset: 10px;
 }
-.games-container {
+.projects-container {
 
     width: 150vh;
     display: grid;
