@@ -1,14 +1,34 @@
-import { games } from './games.js';
+import { games } from '../data/games.js';
+import { robots } from '../data/robots.js';
+import { webProjects } from '../data/web.js';
+
 
 function ClickIt(value){
     localStorage.setItem('gameIndex', value);
     console.log(localStorage.getItem('gameIndex'));
 }
 
+const arrayName = localStorage.getItem('arrayName');
+const arrayToShow = arrayName !== null ? arrayName : "webProjects";
+
+let actualArray;
+switch(arrayToShow)
+{
+    case "games":
+        actualArray = games;
+        break;
+    case "robots":
+        actualArray = robots;
+        break;
+    default:
+        actualArray = webProjects;
+        break;
+}
+
 const gamesContainer = document.querySelector('.games-container');
 let endHTML = "";
 
-games.forEach((game, index) => {
+actualArray.forEach((game, index) => {
     endHTML += `
         <div class="project">
             <a href="../pages/game-pages/project-page.html">
@@ -22,7 +42,6 @@ games.forEach((game, index) => {
             <p>${game.projectName}</p>
         </div>
     `;
-
 });
 
 gamesContainer.innerHTML = endHTML;

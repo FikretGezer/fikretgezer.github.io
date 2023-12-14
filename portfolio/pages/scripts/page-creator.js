@@ -1,4 +1,4 @@
-import { games } from "./games.js";
+import { games } from "../data/games.js";
 import { changeImages } from "./image-changer.js";
 
 const currentGameId = localStorage.getItem('gameIndex');
