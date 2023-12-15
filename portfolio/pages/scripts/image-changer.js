@@ -1,4 +1,4 @@
-export function changeImages() {
+function changeImages() {
     const mainImage = document.querySelector('.main-image');
     const sideImages = document.querySelectorAll('.actual-side-image');
 

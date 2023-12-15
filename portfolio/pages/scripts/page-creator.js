@@ -1,8 +1,8 @@
-import { games } from "../data/games.js";
-import { robots } from "../data/robots.js";
-import { webProjects } from "../data/web.js";
+// import { games } from "../data/games.js";
+// import { robots } from "../data/robots.js";
+// import { webProjects } from "../data/web.js";
 
-import { changeImages } from "./image-changer.js";
+// import { changeImages } from "./image-changer.js";
 
 const projectId = localStorage.getItem('projectIndex');
 const projectContainer = document.querySelector('.project-container');

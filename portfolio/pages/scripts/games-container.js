@@ -1,6 +1,6 @@
-import { games } from '../data/games.js';
-import { robots } from '../data/robots.js';
-import { webProjects } from '../data/web.js';
+// import { games } from '../data/games.js';
+// import { robots } from '../data/robots.js';
+// import { webProjects } from '../data/web.js';
 
 
 function ClickIt(value){

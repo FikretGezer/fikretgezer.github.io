@@ -1,4 +1,4 @@
-export const games = [
+const games = [
     {
         id: 0,
         projectName: "No Name Survivor",
@@ -62,6 +62,76 @@ export const games = [
             "../../images/game-projects/view.jpg",
             "../../images/game-projects/view.jpg",
             "../../images/game-projects/view.jpg",
+            "../../images/game-projects/noname.jpg"
+        ],
+        actualExplanation: "Explanation Tetris",
+        projectVideo: "https://www.youtube.com/embed/y_yFWWKr3dM"
+    },
+    {
+        id: 4,
+        projectName: "Animal Match",
+        actualPlatforms: [
+            "App Store",
+            "Itch.io"
+        ],
+        projectImages: [
+            "../../images/game-projects/animal-match.jpg",
+            "../../images/game-projects/animal-match.jpg",
+            "../../images/game-projects/animal-match.jpg",
+            "../../images/game-projects/animal-match.jpg",
+            "../../images/game-projects/noname.jpg"
+        ],
+        actualExplanation: "Explanation Tetris",
+        projectVideo: "https://www.youtube.com/embed/y_yFWWKr3dM"
+    }
+    ////////////////////////////
+    ,
+    {
+        id: 4,
+        projectName: "Animal Match",
+        actualPlatforms: [
+            "App Store",
+            "Itch.io"
+        ],
+        projectImages: [
+            "../../images/game-projects/animal-match.jpg",
+            "../../images/game-projects/animal-match.jpg",
+            "../../images/game-projects/animal-match.jpg",
+            "../../images/game-projects/animal-match.jpg",
+            "../../images/game-projects/noname.jpg"
+        ],
+        actualExplanation: "Explanation Tetris",
+        projectVideo: "https://www.youtube.com/embed/y_yFWWKr3dM"
+    },
+    {
+        id: 4,
+        projectName: "Animal Match",
+        actualPlatforms: [
+            "App Store",
+            "Itch.io"
+        ],
+        projectImages: [
+            "../../images/game-projects/animal-match.jpg",
+            "../../images/game-projects/animal-match.jpg",
+            "../../images/game-projects/animal-match.jpg",
+            "../../images/game-projects/animal-match.jpg",
+            "../../images/game-projects/noname.jpg"
+        ],
+        actualExplanation: "Explanation Tetris",
+        projectVideo: "https://www.youtube.com/embed/y_yFWWKr3dM"
+    },
+    {
+        id: 4,
+        projectName: "Animal Match",
+        actualPlatforms: [
+            "App Store",
+            "Itch.io"
+        ],
+        projectImages: [
+            "../../images/game-projects/animal-match.jpg",
+            "../../images/game-projects/animal-match.jpg",
+            "../../images/game-projects/animal-match.jpg",
+            "../../images/game-projects/animal-match.jpg",
             "../../images/game-projects/noname.jpg"
         ],
         actualExplanation: "Explanation Tetris",
