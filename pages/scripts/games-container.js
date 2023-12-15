@@ -2,14 +2,28 @@
 // import { robots } from '../data/robots.js';
 // import { webProjects } from '../data/web.js';
 
-
 function ClickIt(value){
     localStorage.setItem('projectIndex', value);
     console.log(localStorage.getItem('projectIndex'));
 }
 
-
 const arrayName = localStorage.getItem('arrayName');
+
+const nameParts = arrayName.split(' ');
+let endTitle = "Fikret Gezer | ";
+
+nameParts.forEach((part, index) => {
+
+    endTitle +=
+    part[0].toUpperCase()
+    + part.slice(1, part.length).toLowerCase();
+
+    if(index !== nameParts.length - 1)
+        endTitle += " ";
+});
+
+document.title = endTitle;
+
 let actualArray;
 
 switch(arrayName)

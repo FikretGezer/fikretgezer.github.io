@@ -98,11 +98,29 @@ switch(arrayName)
     case "robots":
         actualArray = robots;
         break;
-    default:
+    case "web projects":
         actualArray = webProjects;
+        break;
+    default:
         break;
 }
 const currentProject = !projectId ? actualArray[0] : actualArray[projectId];
+
+const pName = currentProject.projectName;
+const pNameParts = pName.split(" ");
+let endTitle = "Fikret Gezer | ";
+
+pNameParts.forEach((part, index) => {
+    endTitle +=
+    part[0].toUpperCase()
+    + part.slice(1, part.length).toLowerCase();
+
+    if(index !== pNameParts.length - 1)
+        endTitle += " ";
+});
+
+document.title = endTitle;
+
 changeContentHTML(currentProject.id, currentProject.projectName,
     currentProject.actualPlatforms, currentProject.projectImages,
     currentProject.actualExplanation, currentProject.projectVideo);
