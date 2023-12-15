@@ -7,7 +7,7 @@ navProjects[1].addEventListener('click', () =>{
     SetArrayName('robots');
 });
 navProjects[2].addEventListener('click', () =>{
-    SetArrayName('webProjects');
+    SetArrayName('web projects');
 });
 
 function SetArrayName(arrayName)

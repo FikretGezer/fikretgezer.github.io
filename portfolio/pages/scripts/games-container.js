@@ -8,9 +8,10 @@ function ClickIt(value){
     console.log(localStorage.getItem('projectIndex'));
 }
 
-const arrayName = localStorage.getItem('arrayName');
 
+const arrayName = localStorage.getItem('arrayName');
 let actualArray;
+
 switch(arrayName)
 {
     case "games":
@@ -19,11 +20,16 @@ switch(arrayName)
     case "robots":
         actualArray = robots;
         break;
-    default:
+    case "web projects":
         actualArray = webProjects;
+        break;
+    default:
+        console.log("Error");
         break;
 }
 
+const header = document.querySelector('.section-name');
+header.innerHTML = arrayName;
 
 let endHTML = "";
 
