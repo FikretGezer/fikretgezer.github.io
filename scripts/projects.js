@@ -1,6 +1,9 @@
 const gameGifs = [
-"images/game-projects/gifs/animal-match-g.gif",
-"images/game-projects/view.jpg"
+    "images/projects-pics/game-pics/gifs/hit-it-right.gif",
+    "images/projects-pics/game-pics/gifs/animal-match.gif",
+    "images/projects-pics/game-pics/gifs/no-name-survivor.gif",
+    "images/projects-pics/game-pics/gifs/tetris.gif",
+    "images/projects-pics/game-pics/gifs/leap-skyward.gif"
 ];
 const uipathGifs = [
     "images/uipath-projects/gifs/gif_1.jpg",

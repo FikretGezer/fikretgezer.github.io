@@ -47,6 +47,7 @@
 .project img:hover {
     width: 400px;
     height: 700px;
+    /* transform: scaleX(1.2); */
 }
 .game-projects,
 .web-projects {
