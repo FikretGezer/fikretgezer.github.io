@@ -11,12 +11,12 @@ const uipathGifs = [
 ];
 
 const gameProjects = document.querySelectorAll('.game-projects .project img');
-const uiPathProjects = document.querySelectorAll('.uipath-projects .project img');
+// const uiPathProjects = document.querySelectorAll('.uipath-projects .project img');
 
 let defaultSource = "";
 let gifSource = "";
 assignEvents(gameProjects, gameGifs);
-assignEvents(uiPathProjects, uipathGifs);
+// assignEvents(uiPathProjects, uipathGifs);
 
 function assignEvents(array, gifs)
 {

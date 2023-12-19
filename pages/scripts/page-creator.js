@@ -7,10 +7,11 @@
 const projectId = localStorage.getItem('projectIndex');
 const projectContainer = document.querySelector('.project-container');
 
-const changeContentHTML = (id, projectName, actualPlatforms,
+const changeContentHTML = (projectName,
                     projectImages, actualExplanation, projectVideo) => {
 
-                        projectContainer.innerHTML = `<div class="project-info">
+                        projectContainer.innerHTML = `
+                    <div class="project-info">
                         <div class="project-name">
                             ${projectName}
                         </div>
@@ -121,17 +122,16 @@ pNameParts.forEach((part, index) => {
 
 document.title = endTitle;
 
-changeContentHTML(currentProject.id, currentProject.projectName,
-    currentProject.actualPlatforms, currentProject.projectImages,
+changeContentHTML(currentProject.projectName, currentProject.projectImages,
     currentProject.actualExplanation, currentProject.projectVideo);
 changeImages();
 
 const platformsHTML = document.querySelector('.actual-platforms');
 let endHTML = "";
-currentProject.actualPlatforms.forEach(platform => {
-    if(platform !== currentProject.actualPlatforms[currentProject.actualPlatforms.length - 1])
-        endHTML += `<a class="platform" href="#">${platform}</a>, `;
+currentProject.actualPlatforms.forEach(currentPlatform => {
+    if(currentPlatform !== currentProject.actualPlatforms[currentProject.actualPlatforms.length - 1])
+        endHTML += `<a class="platform" href="${currentPlatform.link}" target="_blank">${currentPlatform.platform}</a>, `;
     else
-        endHTML += `<a class="platform" href="#">${platform}</a>`;
+        endHTML += `<a class="platform" href="${currentPlatform.link}" target="_blank">${currentPlatform.platform}</a>`;
 });
 platformsHTML.innerHTML = endHTML;
