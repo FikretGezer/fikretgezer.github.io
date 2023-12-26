@@ -4,80 +4,100 @@ const webProjects = [
         projectName: "Amazon Project",
         actualPlatforms: [
             {
-                platform: "-",
-                link: "#"
+                platform: "GitHub",
+                link: "https://github.com/FikretGezer/JavascriptAmazonProject"
             }
         ],
         projectImages: [
-            "../../images/uipath-projects/image_1.jpg",
-            "../../images/uipath-projects/image_2.jpg",
-            "../../images/uipath-projects/image_3.jpg",
-            "../../images/uipath-projects/image_4.jpg",
-            "../../images/uipath-projects/image_5.jpg"
+            "../../images/projects-pics/web-pics/amazon-project/1.1.jpg",
+            "../../images/projects-pics/web-pics/amazon-project/1.1.jpg",
+            "../../images/projects-pics/web-pics/amazon-project/1.jpg",
+            "../../images/projects-pics/web-pics/amazon-project/2.jpg",
+            "../../images/projects-pics/web-pics/amazon-project/3.jpg"
         ],
         actualExplanation: "Explanation",
-        projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
+        projectVideo: ""
+        // projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
     },
     {
         id: 1,
-        projectName: "Youtube Project",
+        projectName: "Weather App",
         actualPlatforms: [
             {
-                platform: "-",
-                link: "#"
+                platform: "GitHub",
+                link: "https://github.com/FikretGezer/WeatherApp"
             }
         ],
         projectImages: [
-            "../../images/uipath-projects/image_3.jpg",
-            "../../images/uipath-projects/image_1.jpg",
-            "../../images/uipath-projects/image_2.jpg",
-            "../../images/uipath-projects/image_4.jpg",
-            "../../images/uipath-projects/image_5.jpg"
+            "../../images/projects-pics/web-pics/weather-app/1.1.jpg",
+            "../../images/projects-pics/web-pics/weather-app/1.1.jpg",
+            "../../images/projects-pics/web-pics/weather-app/1.jpg",
+            "../../images/projects-pics/web-pics/weather-app/2.jpg",
+            "../../images/projects-pics/web-pics/weather-app/3.jpg"
         ],
         actualExplanation: "Explanation",
         projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
     },
     {
         id: 2,
-        projectName: "Youtube Project",
+        projectName: "Tic Tac Toe",
         actualPlatforms: [
             {
-                platform: "-",
-                link: "#"
+                platform: "GitHub",
+                link: "https://github.com/FikretGezer/JavaScriptCourse/tree/main/Learning%20Phase/tic-tac-toe"
             }
         ],
         projectImages: [
-            "../../images/uipath-projects/image_3.jpg",
-            "../../images/uipath-projects/image_1.jpg",
-            "../../images/uipath-projects/image_2.jpg",
-            "../../images/uipath-projects/image_4.jpg",
-            "../../images/uipath-projects/image_5.jpg"
+            "../../images/projects-pics/web-pics/tic-tac-toe/1.1.jpg",
+            "../../images/projects-pics/web-pics/tic-tac-toe/1.1.jpg",
+            "../../images/projects-pics/web-pics/tic-tac-toe/1.jpg",
+            "../../images/projects-pics/web-pics/tic-tac-toe/2.jpg",
+            "../../images/projects-pics/web-pics/tic-tac-toe/3.jpg",
         ],
         actualExplanation: "Explanation",
         projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
     },
     {
         id: 3,
-        projectName: "Youtube Project",
+        projectName: "To Do List",
         actualPlatforms: [
             {
-                platform: "-",
-                link: "#"
+                platform: "GitHub",
+                link: "https://github.com/FikretGezer/JavaScriptCourse/tree/main/Learning%20Phase/to-do-list"
             }
         ],
         projectImages: [
-            "../../images/uipath-projects/image_3.jpg",
-            "../../images/uipath-projects/image_1.jpg",
-            "../../images/uipath-projects/image_2.jpg",
-            "../../images/uipath-projects/image_4.jpg",
-            "../../images/uipath-projects/image_5.jpg"
+            "../../images/projects-pics/web-pics/to-do-list/1.1.jpg",
+            "../../images/projects-pics/web-pics/to-do-list/1.1.jpg",
+            "../../images/projects-pics/web-pics/to-do-list/1.jpg",
+            "../../images/projects-pics/web-pics/to-do-list/2.jpg",
+            "../../images/projects-pics/web-pics/to-do-list/3.jpg",
         ],
         actualExplanation: "Explanation",
         projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
     },
     {
         id: 4,
-        projectName: "Youtube Project",
+        projectName: "Music Player",
+        actualPlatforms: [
+            {
+                platform: "GitHub",
+                link: "https://github.com/FikretGezer/WebDevProjects/tree/main/MusicPlayerDesign"
+            }
+        ],
+        projectImages: [
+            "../../images/projects-pics/web-pics/music-player-design/1.1.jpg",
+            "../../images/projects-pics/web-pics/music-player-design/1.1.jpg",
+            "../../images/projects-pics/web-pics/music-player-design/1.jpg",
+            "../../images/projects-pics/web-pics/music-player-design/2.jpg",
+            "../../images/projects-pics/web-pics/music-player-design/3.jpg",
+        ],
+        actualExplanation: "Explanation",
+        projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
+    },
+    {
+        id: 5,
+        projectName: "Contact Form",
         actualPlatforms: [
             {
                 platform: "-",
@@ -85,11 +105,11 @@ const webProjects = [
             }
         ],
         projectImages: [
-            "../../images/uipath-projects/image_3.jpg",
-            "../../images/uipath-projects/image_1.jpg",
-            "../../images/uipath-projects/image_2.jpg",
-            "../../images/uipath-projects/image_4.jpg",
-            "../../images/uipath-projects/image_5.jpg"
+            "../../images/projects-pics/web-pics/contact-form/1.1.jpg",
+            "../../images/projects-pics/web-pics/contact-form/1.1.jpg",
+            "../../images/projects-pics/web-pics/contact-form/1.jpg",
+            "../../images/projects-pics/web-pics/contact-form/2.jpg",
+            "../../images/projects-pics/web-pics/contact-form/3.jpg",
         ],
         actualExplanation: "Explanation",
         projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
