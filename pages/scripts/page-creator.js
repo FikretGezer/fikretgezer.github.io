@@ -129,9 +129,13 @@ changeImages();
 const platformsHTML = document.querySelector('.actual-platforms');
 let endHTML = "";
 currentProject.actualPlatforms.forEach(currentPlatform => {
-    if(currentPlatform !== currentProject.actualPlatforms[currentProject.actualPlatforms.length - 1])
-        endHTML += `<a class="platform" href="${currentPlatform.link}" target="_blank">${currentPlatform.platform}</a>, `;
+    if(currentPlatform.platform !== '-'){
+        if(currentPlatform !== currentProject.actualPlatforms[currentProject.actualPlatforms.length - 1])
+            endHTML += `<a class="platform" href="${currentPlatform.link}" target="_blank">${currentPlatform.platform}</a>, `;
+        else
+            endHTML += `<a class="platform" href="${currentPlatform.link}" target="_blank">${currentPlatform.platform}</a>`;
+    }
     else
-        endHTML += `<a class="platform" href="${currentPlatform.link}" target="_blank">${currentPlatform.platform}</a>`;
+        endHTML += `<a class="platform" href="${currentPlatform.link}">${currentPlatform.platform}</a>`;
 });
 platformsHTML.innerHTML = endHTML;

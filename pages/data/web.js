@@ -9,11 +9,11 @@ const webProjects = [
             }
         ],
         projectImages: [
-            "../../images/projects-pics/web-pics/amazon-project/1.1.jpg",
-            "../../images/projects-pics/web-pics/amazon-project/1.1.jpg",
-            "../../images/projects-pics/web-pics/amazon-project/1.jpg",
+            "../../images/projects-pics/web-pics/amazon-project/1.2.jpg",
+            "../../images/projects-pics/web-pics/amazon-project/1.2.jpg",
             "../../images/projects-pics/web-pics/amazon-project/2.jpg",
-            "../../images/projects-pics/web-pics/amazon-project/3.jpg"
+            "../../images/projects-pics/web-pics/amazon-project/3.jpg",
+            "../../images/projects-pics/web-pics/amazon-project/4.jpg"
         ],
         actualExplanation: "Explanation",
         projectVideo: ""
@@ -29,11 +29,11 @@ const webProjects = [
             }
         ],
         projectImages: [
-            "../../images/projects-pics/web-pics/weather-app/1.1.jpg",
-            "../../images/projects-pics/web-pics/weather-app/1.1.jpg",
-            "../../images/projects-pics/web-pics/weather-app/1.jpg",
+            "../../images/projects-pics/web-pics/weather-app/1.2.jpg",
+            "../../images/projects-pics/web-pics/weather-app/1.2.jpg",
             "../../images/projects-pics/web-pics/weather-app/2.jpg",
-            "../../images/projects-pics/web-pics/weather-app/3.jpg"
+            "../../images/projects-pics/web-pics/weather-app/3.jpg",
+            "../../images/projects-pics/web-pics/weather-app/4.jpg"
         ],
         actualExplanation: "Explanation",
         projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
@@ -48,11 +48,11 @@ const webProjects = [
             }
         ],
         projectImages: [
-            "../../images/projects-pics/web-pics/tic-tac-toe/1.1.jpg",
-            "../../images/projects-pics/web-pics/tic-tac-toe/1.1.jpg",
-            "../../images/projects-pics/web-pics/tic-tac-toe/1.jpg",
+            "../../images/projects-pics/web-pics/tic-tac-toe/1.2.jpg",
+            "../../images/projects-pics/web-pics/tic-tac-toe/1.2.jpg",
             "../../images/projects-pics/web-pics/tic-tac-toe/2.jpg",
             "../../images/projects-pics/web-pics/tic-tac-toe/3.jpg",
+            "../../images/projects-pics/web-pics/tic-tac-toe/4.jpg"
         ],
         actualExplanation: "Explanation",
         projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
@@ -67,11 +67,11 @@ const webProjects = [
             }
         ],
         projectImages: [
-            "../../images/projects-pics/web-pics/to-do-list/1.1.jpg",
-            "../../images/projects-pics/web-pics/to-do-list/1.1.jpg",
-            "../../images/projects-pics/web-pics/to-do-list/1.jpg",
+            "../../images/projects-pics/web-pics/to-do-list/1.2.jpg",
+            "../../images/projects-pics/web-pics/to-do-list/1.2.jpg",
             "../../images/projects-pics/web-pics/to-do-list/2.jpg",
             "../../images/projects-pics/web-pics/to-do-list/3.jpg",
+            "../../images/projects-pics/web-pics/to-do-list/4.jpg"
         ],
         actualExplanation: "Explanation",
         projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
@@ -86,11 +86,11 @@ const webProjects = [
             }
         ],
         projectImages: [
-            "../../images/projects-pics/web-pics/music-player-design/1.1.jpg",
-            "../../images/projects-pics/web-pics/music-player-design/1.1.jpg",
-            "../../images/projects-pics/web-pics/music-player-design/1.jpg",
+            "../../images/projects-pics/web-pics/music-player-design/1.2.jpg",
+            "../../images/projects-pics/web-pics/music-player-design/1.2.jpg",
             "../../images/projects-pics/web-pics/music-player-design/2.jpg",
             "../../images/projects-pics/web-pics/music-player-design/3.jpg",
+            "../../images/projects-pics/web-pics/music-player-design/4.jpg"
         ],
         actualExplanation: "Explanation",
         projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
@@ -105,11 +105,11 @@ const webProjects = [
             }
         ],
         projectImages: [
-            "../../images/projects-pics/web-pics/contact-form/1.1.jpg",
-            "../../images/projects-pics/web-pics/contact-form/1.1.jpg",
-            "../../images/projects-pics/web-pics/contact-form/1.jpg",
+            "../../images/projects-pics/web-pics/contact-form/1.2.jpg",
+            "../../images/projects-pics/web-pics/contact-form/1.2.jpg",
             "../../images/projects-pics/web-pics/contact-form/2.jpg",
             "../../images/projects-pics/web-pics/contact-form/3.jpg",
+            "../../images/projects-pics/web-pics/contact-form/4.jpg"
         ],
         actualExplanation: "Explanation",
         projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
