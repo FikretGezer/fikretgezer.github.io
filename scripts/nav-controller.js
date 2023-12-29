@@ -4,7 +4,7 @@ navProjects[0].addEventListener('click', () =>{
     SetArrayName('games');
 });
 navProjects[1].addEventListener('click', () =>{
-    SetArrayName('robots');
+    SetArrayName('rpa');
 });
 navProjects[2].addEventListener('click', () =>{
     SetArrayName('web projects');

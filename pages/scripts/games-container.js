@@ -31,7 +31,7 @@ switch(arrayName)
     case "games":
         actualArray = games;
         break;
-    case "robots":
+    case "rpa":
         actualArray = robots;
         break;
     case "web projects":
@@ -43,7 +43,11 @@ switch(arrayName)
 }
 
 const header = document.querySelector('.section-name');
-header.innerHTML = arrayName;
+let title = arrayName;
+if(arrayName === "rpa")
+    title = "UiPath";
+
+header.innerHTML = title;
 
 let endHTML = "";
 

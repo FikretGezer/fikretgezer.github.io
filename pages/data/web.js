@@ -17,7 +17,6 @@ const webProjects = [
         ],
         actualExplanation: "Explanation",
         projectVideo: ""
-        // projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
     },
     {
         id: 1,
@@ -36,7 +35,7 @@ const webProjects = [
             "../../images/projects-pics/web-pics/weather-app/4.jpg"
         ],
         actualExplanation: "Explanation",
-        projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
+        projectVideo: ""
     },
     {
         id: 2,
@@ -55,7 +54,7 @@ const webProjects = [
             "../../images/projects-pics/web-pics/tic-tac-toe/4.jpg"
         ],
         actualExplanation: "Explanation",
-        projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
+        projectVideo: ""
     },
     {
         id: 3,
@@ -74,7 +73,7 @@ const webProjects = [
             "../../images/projects-pics/web-pics/to-do-list/4.jpg"
         ],
         actualExplanation: "Explanation",
-        projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
+        projectVideo: ""
     },
     {
         id: 4,
@@ -93,7 +92,7 @@ const webProjects = [
             "../../images/projects-pics/web-pics/music-player-design/4.jpg"
         ],
         actualExplanation: "Explanation",
-        projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
+        projectVideo: ""
     },
     {
         id: 5,
@@ -112,6 +111,6 @@ const webProjects = [
             "../../images/projects-pics/web-pics/contact-form/4.jpg"
         ],
         actualExplanation: "Explanation",
-        projectVideo: "https://www.youtube.com/embed/yQ9Ydz7jo6I"
+        projectVideo: ""
     }
 ];

@@ -6,7 +6,7 @@ function ClickItWithArrayName(projectIndex, arrayIndex){
             localStorage.setItem('arrayName', 'games');
             break;
         case 1:
-            localStorage.setItem('arrayName', 'robots');
+            localStorage.setItem('arrayName', 'rpa');
             break;
         case 2:
             localStorage.setItem('arrayName', 'web projects');
