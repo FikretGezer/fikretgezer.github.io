@@ -15,7 +15,7 @@ const robots = [
             "../../images/projects-pics/robot-pics/robot-15/2.jpg",
             "../../images/projects-pics/robot-pics/robot-15/3.jpg"
         ],
-        actualExplanation: "Explanation",
+        actualExplanation: "",
         projectVideo: ""
     },
     {
@@ -34,7 +34,7 @@ const robots = [
             "../../images/projects-pics/robot-pics/robot-14/3.jpg",
             "../../images/projects-pics/robot-pics/robot-14/4.jpg",
         ],
-        actualExplanation: "Explanation",
+        actualExplanation: "",
         projectVideo: ""
     },
     {
@@ -53,7 +53,7 @@ const robots = [
             "../../images/projects-pics/robot-pics/robot-13/3.jpg",
             "../../images/projects-pics/robot-pics/robot-13/4.jpg",
         ],
-        actualExplanation: "Explanation",
+        actualExplanation: "",
         projectVideo: ""
     },
     {
@@ -72,7 +72,7 @@ const robots = [
             "../../images/projects-pics/robot-pics/robot-12/3.jpg",
             "../../images/projects-pics/robot-pics/robot-12/4.jpg",
         ],
-        actualExplanation: "Explanation",
+        actualExplanation: "",
         projectVideo: ""
     },
     {
@@ -91,7 +91,7 @@ const robots = [
             "../../images/projects-pics/robot-pics/robot-11/3.jpg",
             "../../images/projects-pics/robot-pics/robot-11/4.jpg",
         ],
-        actualExplanation: "Explanation",
+        actualExplanation: "",
         projectVideo: ""
     },
     {
@@ -110,7 +110,7 @@ const robots = [
             "../../images/projects-pics/robot-pics/robot-9/3.jpg",
             "../../images/projects-pics/robot-pics/robot-9/4.jpg",
         ],
-        actualExplanation: "Explanation",
+        actualExplanation: "",
         projectVideo: ""
     },
 ];

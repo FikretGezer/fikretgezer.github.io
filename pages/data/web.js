@@ -15,7 +15,7 @@ const webProjects = [
             "../../images/projects-pics/web-pics/amazon-project/3.jpg",
             "../../images/projects-pics/web-pics/amazon-project/4.jpg"
         ],
-        actualExplanation: "Explanation",
+        actualExplanation: "",
         projectVideo: ""
     },
     {
@@ -34,7 +34,7 @@ const webProjects = [
             "../../images/projects-pics/web-pics/weather-app/3.jpg",
             "../../images/projects-pics/web-pics/weather-app/4.jpg"
         ],
-        actualExplanation: "Explanation",
+        actualExplanation: "",
         projectVideo: ""
     },
     {
@@ -53,7 +53,7 @@ const webProjects = [
             "../../images/projects-pics/web-pics/tic-tac-toe/3.jpg",
             "../../images/projects-pics/web-pics/tic-tac-toe/4.jpg"
         ],
-        actualExplanation: "Explanation",
+        actualExplanation: "",
         projectVideo: ""
     },
     {
@@ -72,7 +72,7 @@ const webProjects = [
             "../../images/projects-pics/web-pics/to-do-list/3.jpg",
             "../../images/projects-pics/web-pics/to-do-list/4.jpg"
         ],
-        actualExplanation: "Explanation",
+        actualExplanation: "",
         projectVideo: ""
     },
     {
@@ -91,7 +91,7 @@ const webProjects = [
             "../../images/projects-pics/web-pics/music-player-design/3.jpg",
             "../../images/projects-pics/web-pics/music-player-design/4.jpg"
         ],
-        actualExplanation: "Explanation",
+        actualExplanation: "",
         projectVideo: ""
     },
     {
@@ -110,7 +110,7 @@ const webProjects = [
             "../../images/projects-pics/web-pics/contact-form/3.jpg",
             "../../images/projects-pics/web-pics/contact-form/4.jpg"
         ],
-        actualExplanation: "Explanation",
+        actualExplanation: "",
         projectVideo: ""
     }
 ];
