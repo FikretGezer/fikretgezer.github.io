@@ -6,6 +6,10 @@ const games = [
             {
                 platform: "Google Play",
                 link: "https://play.google.com/store/apps/details?id=com.DarkSpies.HITITRIGHT"
+            },
+            {
+                platform: "GitHub",
+                link: "https://github.com/FikretGezer/HitItRight"
             }
         ],
         projectImages: [
@@ -15,7 +19,31 @@ const games = [
             "../../images/projects-pics/game-pics/hit-it-right/new/4.jpg",
             "../../images/projects-pics/game-pics/hit-it-right/new/5.jpg",
         ],
-        actualExplanation: "",
+        actualExplanation: `
+        <h3>What is this game about?</h3>
+        &nbsp;&nbsp;&nbsp;Hit It Right is a score oriented mobile game also it is the first game I created on Unity and published on Google Play.
+        <br><br>
+
+        <h3>How the game works?</h3>
+        <br>
+        <h4>Movements</h4>
+        <ul>
+        <li>• Movements are really basic.</li>
+        <li>• There are two non-visible buttons on the screen: one on the right and the other on the left;</li>
+        <ul>
+        <li>&nbsp;&nbsp;&nbsp; ○ The left button controls the ball's up and down movements.</li>
+        <li>&nbsp;&nbsp;&nbsp; ○ The right button controls the ball's left and right movements.</li>
+        </ul>
+        </ul>
+        <br>
+
+        <h4>Scoring and Gameplay</h4>
+        <ul>
+        <li>• Each time players hit a colorful brick or wall with the ball that matches the ball's color, players earn 1 point.</li>
+        <li>• After hitting the correct brick or wall, both the ball's and the brick's color change.</li>
+        <li>• If players hit the wall with the ball that doesn't match the ball's color, the game will be over.</li>
+        </ul>
+        `,
         projectVideo: "https://www.youtube.com/embed/obtmfchX4nE"
     },
     {
@@ -25,6 +53,10 @@ const games = [
             {
                 platform: "Google Play",
                 link: "https://play.google.com/store/apps/details?id=com.FikretGezer.AnimalMatch"
+            },
+            {
+                platform: "GitHub",
+                link: "https://github.com/FikretGezer/CloneCrash"
             }
         ],
         projectImages: [
@@ -96,6 +128,10 @@ const games = [
             {
                 platform: "Itch.io",
                 link: "https://fikretgezer.itch.io/no-name-survivors"
+            },
+            {
+                platform: "GitHub",
+                link: "https://github.com/FikretGezer/NoNameSurvivor"
             }
         ],
         projectImages: [
@@ -161,6 +197,10 @@ const games = [
             {
                 platform: "Itch.io",
                 link: "https://fikretgezer.itch.io/tetris-game"
+            },
+            {
+                platform: "GitHub",
+                link: "https://github.com/FikretGezer/TetrisGame"
             }
         ],
         projectImages: [
@@ -180,6 +220,10 @@ const games = [
             {
                 platform: "Itch.io",
                 link: "https://fikretgezer.itch.io/leap-skyward"
+            },
+            {
+                platform: "GitHub",
+                link: "https://github.com/FikretGezer/LeapSkyward"
             }
         ],
         projectImages: [
