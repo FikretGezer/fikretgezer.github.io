@@ -77,7 +77,7 @@ const games = [
         <ul>
         <li>• I added tags each one the pieces.</li>
         <li>• When players swipe towards any direction, I searched horizontal and vertical lines that contains the swiped pieces and if there is any matches after swiping, I added them in a matched list, if they're match of 4 or 5, I spawn special pieces like color, row, column bomb and I destroyed the matched ones.</li>
-        <li>• Afte the matches, I moved the board and spawned new pieces. (This could be done with object pooling for the better performance.)</li>
+        <li>• After the matches, I moved the board and spawned new pieces(This could be done with object pooling for the better performance).</li>
         <li>• If there is not a match, I swiped back the pieces.</li>
         <li>• But there was an issue which is what if players matched 4 or 5 pieces when they swiped but matches are not in the same line. I wrote another code block for this to be able to detect if matches are in the same line. And if they are, I'd spawned a special piece.</li>
         <li>• During this process I made sure that players won't be able to swipe another piece while this process on going.</li>
@@ -210,7 +210,27 @@ const games = [
             "../../images/projects-pics/game-pics/tetris/4.jpg",
             "../../images/projects-pics/game-pics/tetris/3.jpg"
         ],
-        actualExplanation: "",
+        actualExplanation: `
+        <h3>What is this game about?</h3>
+        <br>
+        <ul>
+        <li> • Tetris is a classic arcade game. It's actually one of 4 the horsemen(Tetris, Breakout, Mario, Pacman) as I called. The reason I called them like this is, all of these games teach different aspect of the game development.</li>
+        <li> • Players' goal is creating perfectly and horizontally aligned lines without any gaps with random shaped falling blocks. As blocks fall, player can rotate or move them inside of the board and each time players create a perfect horizontal line, that line dissapears and players earn points.</li>
+        <li> • Primary objective is to keep the board clean as much possible and preventthe blocks reaching the top of the screen.</li>
+        </ul>
+        <br><br>
+
+        <h3>Background and Development</h3>
+        <br>
+        &nbsp;&nbsp;&nbsp; Creating the Tetris taught me the some fundamental things in the game development. For example, I had never created a scoreboard until I made Tetris. And also I had to figure out;
+        <br><br>
+        <ul>
+        <li>&nbsp;&nbsp;&nbsp; • How to create dynamic sized boards</li>
+        <li>&nbsp;&nbsp;&nbsp; • How to keep blocks inside of the board while moving and rotating them</li>
+        <li>&nbsp;&nbsp;&nbsp; • How to identify perfect lines before destroying them</li>
+        <li>&nbsp;&nbsp;&nbsp; • How to increase score with different accomplishments like clearing a line, how long a player played, how many blocks the player used.</li>
+        </ul>
+        `,
         projectVideo: "https://www.youtube.com/embed/4iMr9QKEr9s"
     },
     {
