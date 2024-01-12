@@ -251,7 +251,27 @@ const games = [
             "../../images/projects-pics/game-pics/leap-skyward/new/3.jpg",
             "../../images/projects-pics/game-pics/leap-skyward/new/4.jpg",
         ],
-        actualExplanation: "",
+        actualExplanation: `
+        <h3>What is this game about?</h3>
+        Leap Skyward is a score oriented game with a pixel art style.
+        <ul>
+        <br>
+        <li> • The goal of the players is to jump between platforms that have different speeds without falling down.</li>
+        <li> • Each time players jump on a platform, the timer starts, and within the next successful jump without exceeding the timer, it will be refilled again, allowing players to make combo jumps.</li>
+        <li> • Every time players successfully jump on a platform, they earn points. At the end of every combo, players earn extra points, which are equal to the jump count multiplied by the successful jump point.</li>
+        <li> • The ultimate goal is to achieve the highest score possible while avoiding falling off the screen.</li>
+        </ul>
+        <br><br>
+
+        <h3>Background and Development</h3>
+        I wasn't new to character movements and physics, but I hadn't used them for a long time. To refresh my memory, I created this game. The things that I did include:
+        <ul>
+        <br>
+        <li>&nbsp;&nbsp;&nbsp; • Implemented physics-based jumping and movement. I also aimed to make the jumping similar to Mario's style, where the character falls faster than it jumps, and pressing the jump key more results in the character gaining more height.</li>
+        <li>&nbsp;&nbsp;&nbsp; • Made the character stay on the platform by parenting the character to the platform.</li>
+        <li>&nbsp;&nbsp;&nbsp; • Implemented the endless looped background and platforms so players can achieve the highest score possible.</li>
+        </ul>
+        `,
         projectVideo: "https://www.youtube.com/embed/jAHrNs4WXJ8"
     }
 ];
