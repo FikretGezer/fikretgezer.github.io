@@ -141,53 +141,33 @@ const games = [
             "../../images/projects-pics/game-pics/no-name-survivor/3.jpg",
             "../../images/projects-pics/game-pics/no-name-survivor/4.jpg"
         ],
-        actualExplanation: `&nbsp;&nbsp;&nbsp;Have you ever been so engrossed in a game that it sparked your creativity to venture into game development yourself?
-        That's exactly what happened to me when I was enjoying playing Brotato.
-        The game was not just entertaining but also served as a muse for me to experiment with its mechanics and create a whole new gaming experience.
+        actualExplanation: `
+        <h3>What is this game about?</h3>
+        This game is the result of my excessive playtime with a game called Brotato. Basically, this is a shoot'em up game where the goal is to survive 10 consecutive rounds of enemy waves and
+        upgrading the stats using the money dropped by defeated enemies and equip new guns. At the end of each round, players have a rest period during which they can select new weapons or items to enhance their stats throughout the run.
+        Players can choose only 6 weapons, and these weapons cannot be upgraded, so players must choose wisely. Additionally, each weapon is represented by a new character, spawning on the map when selected.
         <br><br>
-
-        <span style="font-weight:bold">Game Overview:</span>
+        There are three types of enemies in the game: normal ones, dashers, and shooters:
+        <ol>
         <br>
-        &nbsp;&nbsp;&nbsp;The result of this inspiration is a thrilling game that promises an adrenaline-packed journey.
-        Brace yourself for a challenge as you navigate through 10 waves of intense gameplay.
-        <br><br>
-
-
-        <span style="font-weight:bold">Controls:</span>
+        <li> • Normal enemies attempt to get close to the characters to inflict damage.</li>
+        <li> • Dashers try to approach characters and dash at them if they get close enough.</li>
+        <li> • Shooters follow the players until they are in range and then shoot with a rifle.</li>
+        </ol>
         <br>
-        &nbsp;&nbsp;&nbsp;
-        To conquer the waves, you'll need to master the controls.
-        Whether you prefer the classic W/A/S/D or the Arrow Keys, the choice is yours.
-        Precision is key, so get ready to maneuver with finesse.
+        Also the spawn rates of enemies change with each round.
         <br><br>
 
-        <span style="font-weight:bold">Game Features:</span>
+        <h3>Background and Development</h3>
+
+        Creating No Name Survivor taught me various skills, including implementing OOP, creating a mini-map, developing a dynamic store, and incorporating stats that affect the players. To clarify further:
+        <ul>
         <br>
-        &nbsp;&nbsp;&nbsp;
-        Dive into a world of diversity with a vast array of elements at your disposal. Here's a glimpse of what awaits you:
-        <br><br>
-
-        <span style="font-weight:bold">Weapons:</span>
-        <br>
-        &nbsp;&nbsp;&nbsp;
-        Arm yourself with a whopping 25 different weapons, each with its own unique strengths and strategies. From blazing firearms to melee mayhem, choose your arsenal wisely.
-        <br><br>
-
-        <span style="font-weight:bold">Items:</span>
-        <br>
-        &nbsp;&nbsp;&nbsp;
-        Enhance your gameplay with 10 different items strategically placed throughout the waves. Power-ups, health boosts, and tactical tools await those who are vigilant and quick-witted.
-        <br><br>
-
-        <span style="font-weight:bold">Enemies:</span>
-        <br>
-        &nbsp;&nbsp;&nbsp;
-        Face off against 3 different types of enemies, each presenting a distinct challenge. Learn their patterns, adapt your tactics, and emerge victorious.
-        <br><br>
-
-        &nbsp;&nbsp;&nbsp;Are you up for the challenge? The waves are waiting, and victory is within reach for those who dare to embrace the adventure.
-        Get ready to immerse yourself in a gaming experience where skill, strategy, and a bit of luck will determine your triumph.
-        Good luck, and may your gaming journey be as exhilarating as the inspiration that birthed it!`,
+        <li> • I used OOP to create different enemies and guns, avoiding code repetition and allowing easy modification of parameters or functions within one script used by similar objects. For instance, I centralized code for enemy behavior in one script and inherited enemy types from it. The use of abstract functions facilitated easy control over being hit by these enemies.</li>
+        <li> • While not essential, I implemented a mini-map to explore its functionality and provide players with a vision of their surroundings.</li>
+        <li> • Weapons and items are essential in these types of games. I utilized Scriptable Objects to define various weapons and items. After each round, a store appears, offering players options to strengthen their characters.</li>
+        </ul>
+        `,
         projectVideo: "https://www.youtube.com/embed/CezxOliOeV8"
     },
     {
