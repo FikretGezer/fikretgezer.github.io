@@ -1,53 +1,59 @@
 const games = [
     {
-        id: 0,
-        projectName: "Hit It Right",
+        projectName: "Fruit Slasher",
         actualPlatforms: [
             {
                 platform: "Google Play",
-                link: "https://play.google.com/store/apps/details?id=com.DarkSpies.HITITRIGHT"
+                link: "https://play.google.com/store/apps/details?id=com.FikretGezer.FruitSlasher"
             },
             {
                 platform: "GitHub",
-                link: "https://github.com/FikretGezer/HitItRight"
+                link: "https://github.com/FikretGezer/FruitSlasher"
             }
         ],
         projectImages: [
-            "../../images/projects-pics/game-pics/hit-it-right/new/1.jpg",
-            "../../images/projects-pics/game-pics/hit-it-right/new/1.jpg",
-            "../../images/projects-pics/game-pics/hit-it-right/new/2.jpg",
-            "../../images/projects-pics/game-pics/hit-it-right/new/4.jpg",
-            "../../images/projects-pics/game-pics/hit-it-right/new/5.jpg",
+            "../../images/projects-pics/game-pics/fruit-slasher/1.jpg",
+            "../../images/projects-pics/game-pics/fruit-slasher/1.jpg",
+            "../../images/projects-pics/game-pics/fruit-slasher/2.jpg",
+            "../../images/projects-pics/game-pics/fruit-slasher/3.jpg",
+            "../../images/projects-pics/game-pics/fruit-slasher/4.jpg"
         ],
         actualExplanation: `
         <h3>What is this game about?</h3>
-        &nbsp;&nbsp;&nbsp;Hit It Right is a score oriented mobile game also it is the first game I created on Unity and published on Google Play.
+        Fruit Slasher is a clone of a known game Fruit Ninja. There is currently 1 mode in the game and the goal of the mode is slicing fruits as much as possible while avoiding bombs.
+        End of the each round players earns some in game currency called "Stars" and experience to level up. Once players level up, some blade or some dojos will be unlocked and they can
+        buy these items from the in game store with stars they own and players can see in the store, which level the items will be unlocked.
         <br><br>
-
-        <h3>How the game works?</h3>
+        Also there are:
+        <ol>
         <br>
-        <h4>Movements</h4>
-        <ul>
-        <li>• Movements are really basic.</li>
-        <li>• There are two non-visible buttons on the screen: one on the right and the other on the left;</li>
-        <ul>
-        <li>&nbsp;&nbsp;&nbsp; ○ The left button controls the ball's up and down movements.</li>
-        <li>&nbsp;&nbsp;&nbsp; ○ The right button controls the ball's left and right movements.</li>
-        </ul>
-        </ul>
+        <li> • 10 different blades</li>
+        <li> • 6 different dojos in the game.</li>
+        </ol>
         <br>
 
-        <h4>Scoring and Gameplay</h4>
+        <h3>Background and Development</h3>
+
+        I tried to analize what can I do and what I can't do before developing the game and wrote everything down.
+        During the development I used OOP, implemented store, created a mission board, implement object pooling for fruits, bombs, effects etc., created different blades using unity's particle system,
+        implement Event Manager using Observer Pattern and more.
         <ul>
-        <li>• Each time players hit a colorful brick or wall with the ball that matches the ball's color, players earn 1 point.</li>
-        <li>• After hitting the correct brick or wall, both the ball's and the brick's color change.</li>
-        <li>• If players hit the wall with the ball that doesn't match the ball's color, the game will be over.</li>
+        <br>
+        <li> • Using the Google Play Games Services Plugin, I implemented a leaderboard to give access to the players to see what other players scores, implemented cloud save so players keep playing the game from the other devices without losing their progress and implemented achievement to give players little bit more challenges.</li>
+        <li> • I used OOP to create a Event Manager. I created enum called Game Events and declared bunch of events to use subscribing from different scripts and when something happened to related to the event I broadcasted the event in the needed script.</li>
+        <li> • Created a store for players to buy new blades and dojos to give them something to pursue. I created a scriptable object to store these items and added one by one after adjusting the parameters (sprites, unlock level, price, etc.). So players can see which item unlocks when and when players reach out the certain level for an item, they can buy it if they have enough Stars.</li>
+        <li> • Used similar type of approach for the mission creating. I stored different type of missions in scriptable object and if there is no active missions, game randomly select 3 different mission and assign them on the board. They will stay there until players complete them.</li>
+        <li> • Implemented pooling system to avoid performance problems by creating and destroying the reusable objects.</li>
+        <li> • Created simple animations for the menus and buttons.</li>
+        <li> • Tried to created dynamic UIs with default Unity components like Layout groups.</li>
+        <li> • Implemented beginner guide to show players around by using inverted mask with materials.</li>
+        <li> • and more...</li>
         </ul>
         `,
-        projectVideo: "https://www.youtube.com/embed/obtmfchX4nE"
+        projectVideo: "https://www.youtube.com/embed/6Oanf6x0FjY"
     },
+
     {
-        id: 1,
         projectName: "Animal Match",
         actualPlatforms: [
             {
@@ -121,8 +127,8 @@ const games = [
         `,
         projectVideo: "https://www.youtube.com/embed/FgOGoUf1bzg"
     },
+
     {
-        id: 2,
         projectName: "No Name Survivor",
         actualPlatforms: [
             {
@@ -170,49 +176,8 @@ const games = [
         `,
         projectVideo: "https://www.youtube.com/embed/CezxOliOeV8"
     },
-    {
-        id: 3,
-        projectName: "Tetris",
-        actualPlatforms: [
-            {
-                platform: "Itch.io",
-                link: "https://fikretgezer.itch.io/tetris-game"
-            },
-            {
-                platform: "GitHub",
-                link: "https://github.com/FikretGezer/TetrisGame"
-            }
-        ],
-        projectImages: [
-            "../../images/projects-pics/game-pics/tetris/1.jpg",
-            "../../images/projects-pics/game-pics/tetris/1.jpg",
-            "../../images/projects-pics/game-pics/tetris/2.jpg",
-            "../../images/projects-pics/game-pics/tetris/4.jpg",
-            "../../images/projects-pics/game-pics/tetris/3.jpg"
-        ],
-        actualExplanation: `
-        <h3>What is this game about?</h3>
-        <ul>
-        <li> • Tetris is a classic arcade game. It's actually one of 4 the horsemen(Tetris, Breakout, Mario, Pacman) as I called. The reason I called them like this is, all of these games teach different aspect of the game development.</li>
-        <li> • Players' goal is creating perfectly and horizontally aligned lines without any gaps with random shaped falling blocks. As blocks fall, player can rotate or move them inside of the board and each time players create a perfect horizontal line, that line dissapears and players earn points.</li>
-        <li> • Primary objective is to keep the board clean as much possible and preventthe blocks reaching the top of the screen.</li>
-        </ul>
-        <br>
 
-        <h3>Background and Development</h3>
-        &nbsp;&nbsp;&nbsp; Creating the Tetris taught me the some fundamental things in the game development. For example, I had never created a scoreboard until I made Tetris. And also I had to figure out;
-        <ul>
-        <br>
-        <li>&nbsp;&nbsp;&nbsp; • How to create dynamic sized boards</li>
-        <li>&nbsp;&nbsp;&nbsp; • How to keep blocks inside of the board while moving and rotating them</li>
-        <li>&nbsp;&nbsp;&nbsp; • How to identify perfect lines before destroying them</li>
-        <li>&nbsp;&nbsp;&nbsp; • How to increase score with different accomplishments like clearing a line, how long a player played, how many blocks the player used.</li>
-        </ul>
-        `,
-        projectVideo: "https://www.youtube.com/embed/4iMr9QKEr9s"
-    },
     {
-        id: 4,
         projectName: "Leap Skyward",
         actualPlatforms: [
             {
@@ -253,5 +218,93 @@ const games = [
         </ul>
         `,
         projectVideo: "https://www.youtube.com/embed/jAHrNs4WXJ8"
+    },
+
+    {
+        projectName: "Tetris",
+        actualPlatforms: [
+            {
+                platform: "Itch.io",
+                link: "https://fikretgezer.itch.io/tetris-game"
+            },
+            {
+                platform: "GitHub",
+                link: "https://github.com/FikretGezer/TetrisGame"
+            }
+        ],
+        projectImages: [
+            "../../images/projects-pics/game-pics/tetris/1.jpg",
+            "../../images/projects-pics/game-pics/tetris/1.jpg",
+            "../../images/projects-pics/game-pics/tetris/2.jpg",
+            "../../images/projects-pics/game-pics/tetris/4.jpg",
+            "../../images/projects-pics/game-pics/tetris/3.jpg"
+        ],
+        actualExplanation: `
+        <h3>What is this game about?</h3>
+        <ul>
+        <li> • Tetris is a classic arcade game. It's actually one of 4 the horsemen(Tetris, Breakout, Mario, Pacman) as I called. The reason I called them like this is, all of these games teach different aspect of the game development.</li>
+        <li> • Players' goal is creating perfectly and horizontally aligned lines without any gaps with random shaped falling blocks. As blocks fall, player can rotate or move them inside of the board and each time players create a perfect horizontal line, that line dissapears and players earn points.</li>
+        <li> • Primary objective is to keep the board clean as much possible and preventthe blocks reaching the top of the screen.</li>
+        </ul>
+        <br>
+
+        <h3>Background and Development</h3>
+        &nbsp;&nbsp;&nbsp; Creating the Tetris taught me the some fundamental things in the game development. For example, I had never created a scoreboard until I made Tetris. And also I had to figure out;
+        <ul>
+        <br>
+        <li>&nbsp;&nbsp;&nbsp; • How to create dynamic sized boards</li>
+        <li>&nbsp;&nbsp;&nbsp; • How to keep blocks inside of the board while moving and rotating them</li>
+        <li>&nbsp;&nbsp;&nbsp; • How to identify perfect lines before destroying them</li>
+        <li>&nbsp;&nbsp;&nbsp; • How to increase score with different accomplishments like clearing a line, how long a player played, how many blocks the player used.</li>
+        </ul>
+        `,
+        projectVideo: "https://www.youtube.com/embed/4iMr9QKEr9s"
+    },
+
+    {
+        projectName: "Hit It Right",
+        actualPlatforms: [
+            {
+                platform: "Google Play",
+                link: "https://play.google.com/store/apps/details?id=com.DarkSpies.HITITRIGHT"
+            },
+            {
+                platform: "GitHub",
+                link: "https://github.com/FikretGezer/HitItRight"
+            }
+        ],
+        projectImages: [
+            "../../images/projects-pics/game-pics/hit-it-right/new/1.jpg",
+            "../../images/projects-pics/game-pics/hit-it-right/new/1.jpg",
+            "../../images/projects-pics/game-pics/hit-it-right/new/2.jpg",
+            "../../images/projects-pics/game-pics/hit-it-right/new/4.jpg",
+            "../../images/projects-pics/game-pics/hit-it-right/new/5.jpg",
+        ],
+        actualExplanation: `
+        <h3>What is this game about?</h3>
+        &nbsp;&nbsp;&nbsp;Hit It Right is a score oriented mobile game also it is the first game I created on Unity and published on Google Play.
+        <br><br>
+
+        <h3>How the game works?</h3>
+        <br>
+        <h4>Movements</h4>
+        <ul>
+        <li>• Movements are really basic.</li>
+        <li>• There are two non-visible buttons on the screen: one on the right and the other on the left;</li>
+        <ul>
+        <li>&nbsp;&nbsp;&nbsp; ○ The left button controls the ball's up and down movements.</li>
+        <li>&nbsp;&nbsp;&nbsp; ○ The right button controls the ball's left and right movements.</li>
+        </ul>
+        </ul>
+        <br>
+
+        <h4>Scoring and Gameplay</h4>
+        <ul>
+        <li>• Each time players hit a colorful brick or wall with the ball that matches the ball's color, players earn 1 point.</li>
+        <li>• After hitting the correct brick or wall, both the ball's and the brick's color change.</li>
+        <li>• If players hit the wall with the ball that doesn't match the ball's color, the game will be over.</li>
+        </ul>
+        `,
+        projectVideo: "https://www.youtube.com/embed/obtmfchX4nE"
     }
 ];

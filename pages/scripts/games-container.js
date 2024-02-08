@@ -50,7 +50,6 @@ if(arrayName === "rpa")
 header.innerHTML = title;
 
 let endHTML = "";
-
 actualArray.forEach((game, index) => {
     endHTML += `
         <div class="project">

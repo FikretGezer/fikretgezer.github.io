@@ -1,9 +1,9 @@
 const gameGifs = [
-    "images/projects-pics/game-pics/gifs/hit-it-right.gif",
+    "images/projects-pics/game-pics/gifs/fruit-slasher.gif",
     "images/projects-pics/game-pics/gifs/animal-match.gif",
     "images/projects-pics/game-pics/gifs/no-name-survivor.gif",
-    "images/projects-pics/game-pics/gifs/tetris.gif",
-    "images/projects-pics/game-pics/gifs/leap-skyward.gif"
+    "images/projects-pics/game-pics/gifs/leap-skyward.gif",
+    "images/projects-pics/game-pics/gifs/tetris.gif"
 ];
 
 const gameProjects = document.querySelectorAll('.game-projects .project img');
